@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    max-width: 75%;
+    background-color: rgb(45, 38, 186);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid white;
+    padding: 1% 0.5% 2.5% 0.5%;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.input {
+    max-width: 60%;
+    /* width: 450px;*/
+    height: 50px;
+    margin: 5px;
+    padding: 0px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.input::placeholder {
+    text-align: center;
+}
+
+.item-input {
+    width: auto;
+    height: 50px;
+    /*max-width: 60%;*/
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background: none;
+    text-align: center;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(214, 8, 42);
+    cursor: pointer;
+}
+
+.boton-editar{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    background: none;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: Montserrat, sans-serif;
+}
+.boton-remover {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    border: none;
+    background-color: rgb(255, 6, 46); 
+    size: 20px;
+    cursor: pointer;
+}
