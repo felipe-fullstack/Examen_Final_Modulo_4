@@ -15,8 +15,7 @@ h1 {
 }
 
 .input {
-    max-width: 60%;
-    /* width: 450px;*/
+    width: auto;
     height: 50px;
     margin: 5px;
     padding: 0px 20px;
